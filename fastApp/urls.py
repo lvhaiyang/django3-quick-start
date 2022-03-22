@@ -13,4 +13,9 @@ urlpatterns = [
     path('get_method_params/', views.get_method_params, name='get_method_params'),
     path('post_method_data/', views.post_method_data, name='post_method_data'),
     path('upload_file/', views.upload_file, name='upload_file'),
+     # ex: /fastApp/database_save
+    path('database_save/', views.database_save, name='database_save'),
+    path('database_select/', views.database_select, name='database_select'),
+    path('database_update/', views.database_update, name='database_update'),
+    path('database_delete/', views.database_delete, name='database_delete'),
 ]
