@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*']
 
 # todo 第二个修改的地方，增加app
 INSTALLED_APPS = [
-    'fastApp', #新增加的内容
+    'fastApp.apps.FastappConfig', #新增加的内容
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
